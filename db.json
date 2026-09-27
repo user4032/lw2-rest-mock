@@ -1,0 +1,10 @@
+{
+  "users": [
+    { "id": 1, "username": "denys_dev", "status": "online", "publicKey": "0x1A2B3C" },
+    { "id": 2, "username": "tester_01", "status": "offline", "publicKey": "0x9F8E7D" }
+  ],
+  "messages": [
+    { "id": 1, "senderId": 1, "receiverId": 2, "content": "Hello, websocket test", "isEncrypted": true },
+    { "id": 2, "senderId": 2, "receiverId": 1, "content": "Received. Ping is 20ms.", "isEncrypted": true }
+  ]
+}
